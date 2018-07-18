@@ -2,7 +2,7 @@ const express = require("express");
 var app = express();
 
 app.get('/', (req, res) => {
-    res.send(`<label class="label success">Hello Express</label><br> Hello shrikant`);
+    res.send(`<label class="label" style="color:Green">Hello Express</label><br> Hello shrikant`);
 });
 
 var mysql = require('mysql');
